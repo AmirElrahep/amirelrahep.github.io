@@ -2993,9 +2993,10 @@ button:disabled,
 
 .features article .gallery .modal .inner img {
     display: block;
-    max-height: 70vh;
+    max-height: 50%;
     max-width: 100%;
     border-radius: 5px;
+    align-content: center;
 }
 
 @media screen and (max-width: 980px) {
@@ -4030,7 +4031,7 @@ body.is-preload #banner p {
 
 .gallery .modal .inner img {
     display: block;
-    max-height: 70vh;
+    max-height: 50%;
     max-width: 100%;
     border-radius: 5px;
 }
